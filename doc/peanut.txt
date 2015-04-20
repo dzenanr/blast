@@ -6,6 +6,8 @@ http://www.dartdocs.org/documentation/peanut/0.0.1+1/index.html#peanut
 Create a GitHub page for the project:
 https://pages.github.com/
 
+Use the Windows console
+
 Activate peanut:
 
 cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\blast
@@ -33,3 +35,126 @@ git pull
 git checkout gh-pages
 update the content of the web folder
 git checkout master
+
+_____________________________________________________________________________
+
+peanut problem
+
+Microsoft Windows [version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation. Tous droits réservés.
+
+C:\Users\ridjanod.FSA-RIDJANOD-2>cd C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\b
+last
+
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\blast>pub global activate peanut
+Resolving dependencies...
++ args 0.13.0
++ bot 0.28.0
++ git 0.4.4+1
++ path 1.3.5
++ peanut 0.0.1+1
++ when 0.2.0
++ which 0.1.3
+Downloading peanut 0.0.1+1...
+Downloading git 0.4.4+1...
+Downloading args 0.13.0...
+Downloading which 0.1.3...
+Downloading bot 0.28.0...
+Downloading when 0.2.0...
+Precompiling executables...
+Loading source assets...
+Precompiled peanut:peanut.
+Activated peanut 0.0.1+1.
+Installed executable peanut.
+
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\blast>peanut
+Unhandled exception:
+Uncaught Error: Bad state: Command not found: git
+Bad state: Command not found: git
+Stack Trace:
+#0      _commandNotFound (package:which/src/which_impl.dart:51)
+#1      _which.<anonymous closure> (package:which/src/which_impl.dart:46)
+#2      _RootZone.runUnary (dart:async/zone.dart:1155)
+#3      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:5
+15)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#5      _completeError (dart:async/future_impl.dart:366)
+#6      _runUserCode (dart:async/stream_pipe.dart:16)
+#7      Stream.firstWhere.<anonymous closure> (dart:async/stream.dart:1042)
+#8      _RootZone.runGuarded (dart:async/zone.dart:1082)
+#9      _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.
+dart:390)
+#10     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:399)
+
+#11     _BufferingStreamSubscription._close (dart:async/stream_impl.dart:290)
+#12     _StreamController&&_SyncStreamControllerDispatch._sendDone (dart:async/s
+tream_controller.dart:706)
+#13     _StreamController._closeUnchecked (dart:async/stream_controller.dart:559
+)
+#14     close (dart:async/stream_controller.dart:552)
+#15     _RootZone.runGuarded (dart:async/zone.dart:1082)
+#16     _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.
+dart:390)
+#17     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:399)
+
+#18     _IterablePendingEvents.handleNext (dart:async/stream_impl.dart:552)
+#19     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart
+:671)
+#20     _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#21     _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#22     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#23     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
+t:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
+t:143)
+Unhandled exception:
+Uncaught Error: Bad state: Command not found: git
+Bad state: Command not found: git
+Stack Trace:
+#0      _commandNotFound (package:which/src/which_impl.dart:51)
+#1      _which.<anonymous closure> (package:which/src/which_impl.dart:46)
+#2      _RootZone.runUnary (dart:async/zone.dart:1155)
+#3      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:5
+15)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:570)
+#5      _completeError (dart:async/future_impl.dart:366)
+#6      _runUserCode (dart:async/stream_pipe.dart:16)
+#7      Stream.firstWhere.<anonymous closure> (dart:async/stream.dart:1042)
+#8      _RootZone.runGuarded (dart:async/zone.dart:1082)
+#9      _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.
+dart:390)
+#10     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:399)
+
+#11     _BufferingStreamSubscription._close (dart:async/stream_impl.dart:290)
+#12     _StreamController&&_SyncStreamControllerDispatch._sendDone (dart:async/s
+tream_controller.dart:706)
+#13     _StreamController._closeUnchecked (dart:async/stream_controller.dart:559
+)
+#14     close (dart:async/stream_controller.dart:552)
+#15     _RootZone.runGuarded (dart:async/zone.dart:1082)
+#16     _BufferingStreamSubscription._sendDone.sendDone (dart:async/stream_impl.
+dart:390)
+#17     _BufferingStreamSubscription._sendDone (dart:async/stream_impl.dart:399)
+
+#18     _IterablePendingEvents.handleNext (dart:async/stream_impl.dart:552)
+#19     _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart
+:671)
+#20     _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#21     _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#22     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#23     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
+t:143)
+
+#0      _rootHandleUncaughtError.<anonymous closure> (dart:async/zone.dart:886)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:41)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:48)
+#3      _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dar
+t:143)
+
+C:\Users\ridjanod.FSA-RIDJANOD-2\dart\game\blast>
