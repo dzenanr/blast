@@ -36,7 +36,13 @@ https://pages.github.com/
 git status
 git pull
 git checkout gh-pages
-update the content of the web folder
+add the web folder with packages from build
+remove build .pub, .packages, ...
+commit
+push
+add .gitignore
+commit
+push
 git checkout master
 
 _____________________________________________________________________________
