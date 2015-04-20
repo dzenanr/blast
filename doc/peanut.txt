@@ -28,6 +28,9 @@ http://leereilly.net/2012/11/29/hosting-games-on-github.html
 
 Alertnative:
 
+Pub Build - Minified the project
+Save the web folder outside the project.
+
 https://pages.github.com/
 
 git status
